@@ -1,0 +1,9 @@
+mysql> SELECT firstname, lastname FROM wizard WHERE lastname = 'Potter' ORDER BY firstname;
++-----------+----------+
+| firstname | lastname |
++-----------+----------+
+| harry     | potter   |
+| lily      | potter   |
++-----------+----------+
+2 rows in set (0.00 sec)
+
