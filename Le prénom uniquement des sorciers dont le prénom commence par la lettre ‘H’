@@ -1,0 +1,8 @@
+mysql> SELECT firstname FROM wizard WHERE firstname LIKE 'H%';
++-----------+
+| firstname |
++-----------+
+| harry     |
+| hermione  |
++-----------+
+2 rows in set (0.00 sec)
